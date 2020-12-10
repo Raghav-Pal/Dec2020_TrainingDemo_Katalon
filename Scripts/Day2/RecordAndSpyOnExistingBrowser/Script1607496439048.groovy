@@ -32,7 +32,7 @@ WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Admin'))
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Dashboard'))
 
-WebUI.verifyTextPresent('Welcome1234', false)
+WebUI.verifyTextPresent('Welcome', false)
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Welcome Paul'))
 
