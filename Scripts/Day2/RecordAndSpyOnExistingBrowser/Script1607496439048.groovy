@@ -32,6 +32,8 @@ WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Admin'))
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Dashboard'))
 
+WebUI.verifyTextPresent('Welcome123', false)
+
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Welcome Paul'))
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_OrangeHRM/a_Logout'), 4)
